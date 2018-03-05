@@ -1,4 +1,4 @@
-# Qt-RPI_bmp180sensor
+# Qt-RPI_servoslavei2c
 
 An example program using Qt widgets and Raspberry Pi to control Servo motors using a I2C slave servo controller. The example provide a class that represent the i2c servo controller. Also, implement a Demo on Qt on how tu use an instance of the class for the i2c servo controller. 
 The Demo control four motors. It allow to configure the limits of the working angles for each motor.
