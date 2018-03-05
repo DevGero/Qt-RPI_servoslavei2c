@@ -28,6 +28,13 @@ SERVO8 (pin 16) -> signal of motor C
 
 SERVO9 (pin 15) -> signal of motor D
 
+ADDRESS0 (pin 6) -> Ground
+
+ADDRESS1 (pin 5) -> Ground
+
+ADDRESS2 (pin 4) -> Ground
+Note: All address pins to ground = 0x28 address for the I2C protocol.
+
 The RPI can not handle that amount of current so a power supply will be need it. Remeber to have commun ground between the power supply and the RPI
 
 Software
